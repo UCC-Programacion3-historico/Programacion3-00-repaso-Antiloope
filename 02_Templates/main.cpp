@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
-    cout << "Ejercicio 00/02\n" << endl;
+
+    cout << "Ejercicio 00/02" << endl;
     return 0;
 }
