@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     int a;
     int h=0,m=0,s=0;
-    printf("Ingrese el valor en segundos: ");
-    scanf("%d",a);
-    
+    cout << "Ingrese el valor en segundos" << '\n';
+    cin >> a;
+
     s = a%60;
     m = a/60;
     h = m/60;
@@ -15,6 +15,6 @@ int main() {
         m = m%60;
     }
 
-    printf("%d segundos son: %d horas, %d minutos , %d segundos",a,h,m,s);
+    cout << a <<" segundos son: " << h << " horas, " << m << " minutos, "<< s <<" segundos" << '\n';
     return 0;
 }
